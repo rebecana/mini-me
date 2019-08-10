@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta name="description" content="personal profile">
+  	<meta name="keywords" content="HTML,CSS,JavaScript">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	<meta name="author" content="Rebeca Petre">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<link rel="stylesheet" type="text/css" href="home.css">
+ 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	
+</script>
+
+<link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Halant|Josefin+Slab|Reenie+Beanie|Sacramento&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|League+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Clicker+Script&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Alex+Brush|Mr+De+Haviland&display=swap" rel="stylesheet">
+
+
+<script type="text/javascript" src="quote.js"></script>
+
+<title>mini me</title>
+</head>
+<body>
+	
+	<section id="navigation">
+		<div class="bg-image">
+			<div class="bw-gradient">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="text-center"></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header">
+				<div class="sub-header text-capitalize font-weight-bold active">
+					<ul class="left-menu">
+						<li><a href="aboutme.html">about me</a></li>
+						<li><a href="articles.html">articles</a></li>
+					</ul>
+					<div class="logo">
+						<a href="home.html">Mini me</a>
+							
+					</div>
+
+					<ul class="right-menu">
+						<li><a href="works.html">works</a></li>
+						<li><a href="contact.html">contact</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+		</div>
+	</section>	
+
+
+
+	<!-- blog -->
+	<section id="blog">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<div class="blog-content text-center text-capitalize">
+						<h4 class="main-header font weight-bold text-justify">About me</h4>
+						<p class="blog-main text justify"> Hi, I'm Rebeca. I'm studying Web Design in Bucharest. I like to call myself a simple person. Even my design of this personal website is simple. "mini me" is a name which I choosed because despite of all "adult stuff", I still wanna keep my childish side alive. Surely, it can be a reference to "minimalism", too. It's just the perfect name. My background image is actually a kind of logo I wanted to design, in Illustrator. It was supposed to be a "logo" to use as a profile picture to all my social accounts. I couldn't find a photo to be exacly what I wanted, so I said to myself: Why can't you make one? So I did. <p class="blog-main text justify">I like  The concept of minimalism is one I embrace. Not only in design. There are other ares of my life in which I decide to keep the less most important things despite the rest. I rather focus on things that really matters that to have too much and feel overwhelmed. I actually think that living this king of meaningful life leads more to happiness than having too much of things we thought we need them to be happy. Then it turns out it wasn't actually like that. Comin back to me, I like to keep my mystery in my works, still to focus on what matters. Sounds like a paradox but it's my personal touch. Surely, not all the time.. The point is balance. </p></p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<div id="quote">
+		<p>“He is no fool who gives what he cannot keep to gain that which he cannot lose.”</p>
+	</div>
+
+	<section id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx auto">
+						<ul>
+  			<li><a href="https://www.facebook.com/rebb.anna"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+ 			<li><a href="https://twitter.com/rebbeccanna"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+  			<li><a href="https://www.linkedin.com/in/ana-rebeca-petre-7a6310112/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+  			<li><a href="https://www.instagram.com/rebeca.petre/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		</ul>
+					<p class="copy-right text-muted text-center">
+						Copyright &copy; 2019
+					</p>
+				</div>
+			</div>
+		</div>					
+
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(window).on('scroll', function()){
+				if($(window).scrollTop()) {
+					$(".sub-header").addClass('active')
+				} 
+				else {
+					$("sub-header").removeClass('active');
+			}
+		})
+	});
+	</script>
+
+
+</body>
+</html>
